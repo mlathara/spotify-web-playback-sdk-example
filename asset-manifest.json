@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/spotify-web-playback-sdk-example/static/css/main.858b8292.chunk.css",
+    "main.js": "/spotify-web-playback-sdk-example/static/js/main.46fc63ae.chunk.js",
+    "main.js.map": "/spotify-web-playback-sdk-example/static/js/main.46fc63ae.chunk.js.map",
+    "runtime-main.js": "/spotify-web-playback-sdk-example/static/js/runtime-main.c12e4a34.js",
+    "runtime-main.js.map": "/spotify-web-playback-sdk-example/static/js/runtime-main.c12e4a34.js.map",
+    "static/js/2.1a662388.chunk.js": "/spotify-web-playback-sdk-example/static/js/2.1a662388.chunk.js",
+    "static/js/2.1a662388.chunk.js.map": "/spotify-web-playback-sdk-example/static/js/2.1a662388.chunk.js.map",
+    "index.html": "/spotify-web-playback-sdk-example/index.html",
+    "static/css/main.858b8292.chunk.css.map": "/spotify-web-playback-sdk-example/static/css/main.858b8292.chunk.css.map",
+    "static/js/2.1a662388.chunk.js.LICENSE.txt": "/spotify-web-playback-sdk-example/static/js/2.1a662388.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c12e4a34.js",
+    "static/js/2.1a662388.chunk.js",
+    "static/css/main.858b8292.chunk.css",
+    "static/js/main.46fc63ae.chunk.js"
+  ]
+}
