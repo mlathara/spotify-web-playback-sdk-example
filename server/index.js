@@ -11,7 +11,7 @@ dotenv.config()
 var spotify_client_id = process.env.SPOTIFY_CLIENT_ID
 var spotify_client_secret = process.env.SPOTIFY_CLIENT_SECRET
 
-var spotify_redirect_uri = 'https://mlathara.github.io/spotify-web-playback-sdk-example/auth/callback'
+var spotify_redirect_uri = 'https://spotify-web-playback-sdk-example.onrender.com/auth/callback'
 
 var generateRandomString = function (length) {
   var text = '';
@@ -25,7 +25,7 @@ var generateRandomString = function (length) {
 
 var app = express();
 
-app.get('/spotify-web-playback-sdk-example/auth/login', (req, res) => {
+app.get('/auth/login', (req, res) => {
 
   var scope = "streaming user-read-email user-read-private user-modify-playback-state"
   var state = generateRandomString(16);
@@ -41,7 +41,7 @@ app.get('/spotify-web-playback-sdk-example/auth/login', (req, res) => {
   res.redirect('https://accounts.spotify.com/authorize/?' + auth_query_parameters.toString());
 })
 
-app.get('/spotify-web-playback-sdk-example/auth/callback', (req, res) => {
+app.get('/auth/callback', (req, res) => {
 
   var code = req.query.code;
 
@@ -68,7 +68,7 @@ app.get('/spotify-web-playback-sdk-example/auth/callback', (req, res) => {
 
 })
 
-app.get('/spotify-web-playback-sdk-example/auth/token', (req, res) => {
+app.get('/auth/token', (req, res) => {
   res.json({ access_token: access_token})
 })
 
