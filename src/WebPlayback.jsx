@@ -3,14 +3,14 @@ import React, { useState, useEffect } from 'react';
 const lut = {
     "L": {name: "Sua Cara", uri: "spotify:track:5D2m0GT5EDngcqD7YdkF7w", seek: 40000},
     "9": {name: "Right Foot Creep", uri: "spotify:track:2wzKkQm5nYxrK2pJpZVjJW", seek: 73000},
-    "10": {name: "Back In Black", uri: "spotify:track:08mG3Y1vljYA6bvDt4Wqkj", seek: 5000},
+    "10": {name: "Back In Black", uri: "spotify:track:08mG3Y1vljYA6bvDt4Wqkj", seek: 20000},
     "8": {name: "Can't Stop The Feeling", uri: "spotify:track:6JV2JOEocMgcZxYSZelKcc", seek: 24000},
-    "11": {name: "Dance The Night Away", uri: "spotify:track:2YXGbxICUdOUJe9OPlicy1", seek: 40000},
+    "11": {name: "Dance The Night Away", uri: "spotify:track:11C4y2Yz1XbHmaQwO06s9f", seek: 36000},
     "2": {name: "Don't Worry Be Happy", uri: "spotify:track:4hObp5bmIJ3PP3cKA9K9GY", seek: 29000},
     "V": {name: "Heaven Is A Place On Earth", uri: "spotify:track:58mFu3oIpBa0HLNeJIxsw3", seek: 69000},
     "6": {name: "Take Over", uri: "spotify:track:5fzg2Cix9vHL4YpI0XcrR9", seek: 65000},
-    "S": {name: "Intergalactic", uri: "spotify:track:5fpizYGbi5IQoEraj6FP0R", seek: 29000},
-    "3": {name: "Balam Pichkari", uri: "spotify:track:18e3XXYCv4Tx8uUl1mP3CN", seek: 72000}
+    "S": {name: "Intergalactic", uri: "spotify:track:5fpizYGbi5IQoEraj6FP0R", seek: 25000},
+    "3": {name: "Balam Pichkari", uri: "spotify:track:18e3XXYCv4Tx8uUl1mP3CN", seek: 72600}
 }
 
 const track = {
