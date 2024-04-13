@@ -82,14 +82,6 @@ body {
   margin-bottom: 1em;
 }
 
-.now-playing__cover {
-  border-radius: 8px;
-  float: left;
-  margin-right: 10px;
-  text-align: right;
-  width: 100px;
-  height: 100px;
-}
 
 .now-playing__side {
   margin-left: 2%;
